@@ -7,3 +7,5 @@ let basketModal = document.querySelector(".modal");
 function toggleModal() {
   basketModal.classList.toggle("is-open");
 }
+
+new WOW().init();
